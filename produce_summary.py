@@ -27,6 +27,8 @@ for line in the_file:
 the_file.close()
 
 
+
+
 print("Day 3")
 the_file = open("um-deliveries-20140521.txt")
 for line in the_file:
@@ -67,4 +69,4 @@ def melon_count(day_number, path):
 
 melon_count(1, "um-deliveries-20140519.txt")
 melon_count(2, "um-deliveries-20140520.txt")
-melon_count(3,)
+melon_count(3, "um-deliveries-20140521.txt")
